@@ -1,3 +1,4 @@
 print('你好')
 print('hello world')
 print(" ")
+print("test")
