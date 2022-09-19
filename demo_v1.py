@@ -2,6 +2,9 @@ import requests
 from lxml import etree
 
 
+
+
+
 def scrape_index():
     url = "https://so.gushiwen.cn/gushi/tangshi.aspx"
     response = requests.get(url)

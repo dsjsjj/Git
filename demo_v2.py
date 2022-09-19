@@ -6,3 +6,5 @@ response = requests.get(url)
 html = etree.HTML(response.text)
 href_list = html.xpath('//div/span/a/@href')
 print(href_list)
+
+
